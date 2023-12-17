@@ -1,1 +1,1 @@
-web: gunicorn  --chdir /bin/djhotel 'djhotel.wsgi'
+web: gunicorn  --chdir /opt/venv/bin/djhotel 'djhotel.wsgi'
