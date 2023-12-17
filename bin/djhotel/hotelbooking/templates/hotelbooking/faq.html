@@ -1,0 +1,58 @@
+{% extends "hotelbooking/base.html" %}
+{% block content %}
+{% load bootstrap5 %}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+<div class="container-md">
+<div class="accordion accordion-flush" id="accordionFlushExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            Q: Is Craggy Island B&B a real place?
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">A: No, Craggy Island B&B is a fictional location from the popular Irish sitcom "Father Ted." The show, created by Graham Linehan and Arthur Mathews, is a comedy series that aired in the late 1990s.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            Q: Can I book a stay at Craggy Island B&B?
+        </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">A: Unfortunately, you cannot book a stay at Craggy Island B&B as it exists only in the fictional world of Father Ted. The series was filmed on location in various parts of Ireland, but the actual B&B doesn't exist.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            Q: Where was Father Ted filmed?
+        </button>
+      </h2>
+      <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">A: The exterior shots of Craggy Island, including the parochial house and the B&B, were filmed on location in County Clare, Ireland. The exact locations vary, but some scenes were shot in and around the villages of Kilfenora and Ennistymon.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        Q: Are Mrs. Doyle's homemade cakes really that good?
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">A: Mrs. Doyle, the housekeeper at Craggy Island B&B, is known for her relentless offers of tea and homemade cakes. While the cakes are a recurring joke on the show, unfortunately, you won't get to taste them in real life. The character is played by actress Pauline McLynn.</div>
+    </div>
+  </div>
+</div>
+
+</div>
+  {% endblock content %}
+
+
+
+ 
+
