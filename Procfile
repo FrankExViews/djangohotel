@@ -1,1 +1,1 @@
-web: gunicorn --pythonpath djhotel djhotel.wsgi
+web: gunicorn 'djhotel.wsgi' --chdir /bin/djhotel
