@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'crispy_forms',
     'crispy_bootstrap5',
     'bootstrap5',
+    'users.apps.UsersConfig',
 ]
 
 MIDDLEWARE = [
@@ -130,3 +131,6 @@ CRISPY_TEMPLATE_PACK = 'bootstrap5'
 
 MEDIA_ROOT = BASE_DIR / 'media' # Newer modern and Pythonic way 
 MEDIA_URL = '/media/'
+
+LOGIN_REDIRECT_URL = 'home'
+LOGIN_URL = 'login'
